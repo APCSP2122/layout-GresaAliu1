@@ -4,15 +4,16 @@ html {
 }
 
 body {
+    margin: 0px;
     color: #000;
-    font-size:  2.5rem;
+    font-size:  2rem;
 }
 
 header {
     background-color:   DeepSkyBlue;
     border: 10px solid orange;
     margin: 50px;
-    padding: 50px;
+    padding: 10px;
     display: flex;
     justify-content:    space-between; /*moves items along Main axis*/
     align-items:    center;            /*moves items along cross axis*/
