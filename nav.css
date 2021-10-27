@@ -5,8 +5,9 @@ nav{
 
 nav ul{
     display:    flex;
-    justify-content:    space-around;
     list-style-type: none;
+    justify-content:    space-around; /*moves items along Main axis*/
+    align-items:    center;            /*moves items along cross axis*/
 }
 
 nav ul li a{
